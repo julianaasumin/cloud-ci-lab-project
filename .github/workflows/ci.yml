@@ -7,7 +7,7 @@ jobs:
   build-and-test:
     runs-on: ubuntu-latest
 
-```
+
     steps:
     -  name: Checkout Repository
        uses: actions/checkout@v4
@@ -28,4 +28,4 @@ jobs:
 
     -  name: Echo Build Message
        run: echo "CI Pipeline executed successfully!"
-```
+
